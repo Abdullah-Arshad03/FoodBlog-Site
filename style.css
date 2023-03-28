@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+overflow-x: hidden;
+}
+/* Navigation bar */
+
+nav{
+    position: sticky;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.418);
+    background-blend-mode: darken;
+}
+.Navbar{
+
+    display: flex;
+    color:blue;
+    /* margin-bottom : 23px; */
+padding-bottom: 7px;
+}
+
+.Navbar ul li{
+    list-style: none ;
+    padding-left: 74px;
+}
+.Navbar ul li a{
+   text-decoration: none;
+   color: white;
+}
+.left-nav :hover{
+   color: yellowgreen;
+ }
+.left-nav
+{
+width: 50%;
+color: white;
+display: flex;
+align-items: center;
+margin-bottom: -10px;
+
+}
+.right-nav
+{
+    width: 50%;
+    font-family:  'Amatic SC', cursive;
+    display: flex;
+    /* background-color: black; */
+    color: aliceblue;
+    font-size: 37px;
+    font-weight: 6;
+    text-align: center;
+    margin-bottom: -12px;
+
+}
+.nav-logo img{
+    /* border: 2px solid white; */
+    border-radius: 47px;
+    margin-left: 420px; 
+    margin-top: 5px; 
+}
+.firstword{
+    color: aqua;
+}
+.secword:hover{
+    color: yellowgreen;
+}
+.site-heading
+{
+    position: relative;
+    top: 6px;
+}
+.background{
+background: rgba(0, 0, 0, 0.7) url('/images/bg-food.jpg');
+background-size: contain;
+background-blend-mode: darken;
+background-repeat: no-repeat;
+}
+.firstsec{
+    
+    height: 75vh;
+    padding: 39px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+}
+.breakfast{
+    margin-top: -18px;
+     width: 320px;
+  height: 420px;
+  border: 1px solid rgb(0, 0, 0);
+ background: url("/images/breakfast.jpg");
+ background-size: cover;
+ /* border-radius: 32px; */
+ /* background-color: black; */
+ /* background-blend-mode: darken; */
+ filter: drop-shadow(30px 10px 4px #060607c2);
+ 
+}
+.lunch{
+    margin-top: -18px;
+    width: 320px;
+ height: 420px;
+ border: 1px solid black;
+ background-image: url("/images/lunch.jpg");
+ background-size: cover;
+ filter: drop-shadow(30px 10px 4px #060607c2);
+ 
+}
+.dinner{
+    margin-top: -18px;
+
+    width: 320px;
+ height: 420px;
+ border: 1px solid black;
+ background-image: url("/images/Dinner.jpg");
+ background-size: cover;
+ filter: drop-shadow(30px 10px 4px #060607c2);
+
+}
+.foodtext{
+
+    padding-top: 31px;
+    font-family: 'Kaushan Script', cursive;
+ font-size: 40px;
+}
+a:hover
+{
+    color: green;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+.breakfast:hover{
+    width: 250vw;
+    height: 75vh;
+    background-image: url("/images/breakinfo.png");
+    color: white;
+}
+.lunch:hover{
+    width: 250vw;
+    height: 75vh;
+    background-image: url("/images/lunchinfo.png");
+    color: white;
+}
+.dinner:hover{
+    width: 250vw;
+    height: 75vh;
+    background-image: url("/images/dinneriinfo.png");
+    color: white;
+}
+
+
+/* RECIPE BUTTONS AT BOTTOM */
+.recipe1{
+
+    font-size: 15px;
+    position: relative;
+    top: -25px;
+    left: 573px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recipe1 a{
+    color: yellow;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+ .recipe1 a:hover
+{
+    color: beige;
+}
+button{
+    padding: 10px 22px;
+    border: 2px solid white;
+    border-radius: 18px;
+    background: none;
+}
+
+.click{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.p-web-info{
+    padding-top: -44px;
+    color: yellow;
+}
+
+/* About Section */
+
+#about{
+    background: rgba(0, 0, 0, 0.529) url("/images/about-bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+
+}
+.about-title{
+padding-top: 35px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* white color in about */
+.white{
+    color: aliceblue;
+}
+
+/* Blue color in A of About */
+.blue{
+    color: rgb(0, 217, 255);
+}
+
+.about-title :hover{
+    color: greenyellow;
+}
+.about-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.about-info{
+    font-size: 18px;
+    margin-left: 56px;
+    margin-top: 42px;
+color: white;
+
+}
+.about-image{
+   width: 400px;
+height: 490px;
+    border: 2px solid white;
+    border-radius: 23px;
+    margin-top: -18px;
+    margin-right: 80px;
+    background-image: url("/images/foodblog.jpg");
+    background-size: cover;
+    background-position: center;
+    /* filter: drop-shadow(30px 10px 4px #7b7bbfc2); */
+filter: drop-shadow(0 0 0.75rem rgb(20, 197, 220));
+}
+
+
+/* Services Section */
+
+#services{
+    background: rgba(0, 0, 0, 0.7) url("/images/services-image.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+.services-title
+{
+    text-align: center;
+    padding-top: 190px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family:  'Ubuntu', sans-serif;
+ filter: drop-shadow(30px 10px 4px #060607c2);
+
+}
+.services-des{
+    text-align: center;
+    padding-top: 41px;
+     color: aliceblue;
+     font-family:  'Ubuntu', sans-serif;
+     font-size: 18px;
+     
+}
+.bottom-text{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 14px;
+ filter: drop-shadow(30px 10px 4px #060607c2);
+
+}
+
+#contact{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.395) url("/images/services\ image.jpg");
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    
+}
+.title-contact{
+    position: relative;
+    left: 479px;
+    top: 175px;
+    text-align: center;
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 500;
+ filter: drop-shadow(30px 10px 4px #060607c2);
+
+}
+.form{
+    padding-top: 10px;
+max-width: 500px;
+margin: auto;
+}
+.form-input{
+    margin: 15px 0px;
+    padding: 3px 3px;
+    width: 100%;
+font-size: 17px;
+border: 2px solid grey;
+border-radius: 6px;
+}
+.submitbtn{
+    border: 2px solid grey;
+    padding: 6px 10px;
+    vertical-align: middle;
+border-radius: 0px;
+    cursor: pointer;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 12px;
+ }
+ .footer
+ {
+    text-align: center;
+ }
